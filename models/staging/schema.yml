@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: anime-analytics-418714
+    schema: anime_analytics
+    tables:
+      - name: anime
+      - name: ratings
+      - name: users
+      
